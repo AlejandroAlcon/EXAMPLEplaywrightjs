@@ -1,0 +1,22 @@
+{
+  "name": "mi_proyecto",
+  "version": "1.0.0",
+  "description": "Examen Pruebas Playwright y Cucumber",
+  "main": "runner.js",
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
+  "keywords": [
+    "automatización",
+    "pruebas",
+    "playwright",
+    "cucumber"
+  ],
+  "author": "Alejandro Alcon",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0",
+    "@playwright/test": "^1.15.1"
+  }
+}
+
