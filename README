@@ -1,0 +1,42 @@
+# Automatización de Pruebas con Playwright y Cucumber
+
+Este proyecto realiza la automatización de pruebas para la aplicación web https://todo.ly/ utilizando Playwright y Cucumber.
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local:
+
+```bash
+git clone https://github.com/tu_usuario/tu_proyecto.git
+Navega al directorio del proyecto:
+
+cd tu_proyecto
+Instala las dependencias utilizando npm:
+
+npm install
+Ejecución de las Pruebas
+Para ejecutar las pruebas automatizadas, puedes utilizar el siguiente comando:
+
+
+npm test
+Este comando ejecutará las pruebas utilizando Cucumber y Playwright, y mostrará los resultados en la consola.
+
+Estructura del Proyecto
+El proyecto está estructurado de la siguiente manera:
+
+pages/: Contiene las clases que representan las diferentes páginas de la aplicación.
+specs/: Contiene los archivos de pruebas automatizadas separados para cada funcionalidad.
+features/: Contiene los archivos de características de Cucumber escritos en lenguaje natural (Gherkin).
+runner.js: Archivo principal desde donde se ejecutan las pruebas.
+Dependencias Principales
+@cucumber/cucumber: Framework de pruebas de comportamiento que permite escribir pruebas en lenguaje natural.
+@playwright/test: Biblioteca de pruebas para controlar navegadores web y realizar pruebas de extremo a extremo.
+Contribución
+Siéntete libre de contribuir a este proyecto abriendo problemas (issues) o enviando solicitudes de extracción (pull requests).
+
+¡Gracias por tu interés en contribuir!
+
+
+Este README proporciona instrucciones claras sobre cómo instalar las dependencias del proyecto y ejecutar las pruebas automatizadas. También proporciona una descripción general de la estructura del proyecto y las dependencias principales utilizadas.
+
+Puedes personalizar este README según tus necesidades específicas y los detalles de tu proyecto. Si tienes alguna otra pregunta o necesitas más ayuda, no dudes en decirme. Estoy aquí para ayudar.
